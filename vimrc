@@ -26,3 +26,4 @@ filetype plugin indent on
 set shiftwidth=2
 set backupdir=~/.vim/backup//
 set clipboard=unnamed
+set pastetoggle=<F2>
