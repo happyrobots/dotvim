@@ -1,0 +1,25 @@
+if $COLORTERM == 'gnome-terminal'
+  set term=gnome-256color
+  colorscheme railscasts
+else
+  colorscheme default
+endif
+set cindent
+set smartindent
+set autoindent
+set number
+set hidden
+set history=100
+set ignorecase
+set smartcase
+set title
+set ruler
+set cursorline
+set smarttab
+set expandtab
+set tabstop=2
+syntax on
+filetype plugin indent on
+set shiftwidth=2
+set backupdir=~/.vim/backup//
+set clipboard=unnamed
