@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 if $COLORTERM == 'gnome-terminal'
   set term=gnome-256color
   colorscheme railscasts
