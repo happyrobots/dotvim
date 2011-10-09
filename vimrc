@@ -1,10 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-if $COLORTERM == 'gnome-terminal'
-  set term=gnome-256color
-endif
-colorscheme railscasts
+let g:solarized_termcolors=256
 set cindent
 set smartindent
 set autoindent
@@ -24,3 +21,6 @@ filetype plugin indent on
 set shiftwidth=2
 set clipboard=unnamed
 set pastetoggle=<F2>
+syntax enable
+set background=light
+colorscheme solarized
