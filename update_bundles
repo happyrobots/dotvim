@@ -20,7 +20,6 @@ git_bundles = [
   "git://github.com/tsaleh/vim-tcomment.git",
   "git://github.com/vim-ruby/vim-ruby.git",
   "git://github.com/mileszs/ack.vim.git",
-  "git://github.com/mikewest/vimroom.git",
   "https://github.com/altercation/vim-colors-solarized"
 ]
 
