@@ -1,7 +1,6 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-let g:solarized_termcolors=256
 set cindent
 set smartindent
 set autoindent
@@ -22,5 +21,4 @@ set shiftwidth=2
 set clipboard=unnamed
 set pastetoggle=<F2>
 syntax enable
-set background=light
-colorscheme solarized
+colorscheme Tomorrow-Night-Bright
